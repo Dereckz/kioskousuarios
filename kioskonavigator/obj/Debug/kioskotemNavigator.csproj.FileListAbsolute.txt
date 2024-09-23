@@ -1,0 +1,5 @@
+D:\Original\kiosko navigator\kioskonavigator\bin\kioskotem.dll
+D:\Original\kiosko navigator\kioskonavigator\bin\kioskotem.pdb
+D:\Original\kiosko navigator\kioskonavigator\bin\Ionic.Zip.dll
+D:\Original\kiosko navigator\kioskonavigator\obj\Debug\kioskotem.dll
+D:\Original\kiosko navigator\kioskonavigator\obj\Debug\kioskotem.pdb
