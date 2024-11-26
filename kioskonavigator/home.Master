@@ -141,7 +141,7 @@
         <li><a href="../nomina/comprobante.aspx"><i class="fa fa-circle-o text-aqua"></i> <span>Comprobante de nomina</span></a></li>
           <li><a href="../nomina/timbrado.aspx"><i class="fa fa-circle-o text-aqua"></i> <span>Recibo Timbrado SA (Nomina A)</span></a></li>
         <li><a href="../nomina/sindicato.aspx"><i class="fa fa-circle-o text-aqua"></i> <span style= " font-size:11px;">Recibo Timbrado Asimilados (Nomina B)</span></a></li>
-        <li><a href="../nomina/simple.aspx"><i class="fa fa-circle-o text-aqua"></i> <span>Recibo Timbrado Simple </span></a></li>
+         <%--<li><a href="../nomina/simple.aspx"><i class="fa fa-circle-o text-aqua"></i> <span>Recibo Timbrado Simple </span></a></li>--%>
         <%--<li><a href="../nomina/sa.aspx"><i class="fa fa-circle-o text-aqua"></i> <span>recibo SA</span></a></li>--%>
      
         <%--<li class="treeview">
@@ -212,7 +212,7 @@
           </ul>
         </li>--%>
         
-        <li class="header">ANTICIPO DE NOMINA</li>
+        <%--<li class="header">ANTICIPO DE NOMINA</li>
         
         <li><a href="../anticipo/comprobante.aspx"><i class="fa fa-circle-o text-aqua"></i> <span>Comprobante anticipo</span></a></li>
 
@@ -223,7 +223,7 @@
         <li class="header" id="lijuridico" visible ="false" runat="server" >JURIDICO</li>
 
         <li  id="lijuridico2" visible ="false" runat="server"> <a href="../juridico/contratos.aspx" ><i class="fa fa-circle-o text-aqua"></i> <span>Contratos</span></a></li>
-
+--%>
       </ul>
     </section>
     <!-- /.sidebar -->

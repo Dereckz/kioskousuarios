@@ -27,7 +27,7 @@ namespace kioskotem
             {
                 //insertamos la modificacion en la base de datos
                 IsvcOperadoraMxClient Manejador = new IsvcOperadoraMxClient();
-                Tabla MiTabla = Manejador.getEjecutaStoredProcedure1("setActualizarPrivacidad", Session["idusuario"].ToString() + "|" + Session["idcodigo"].ToString());
+                Tabla MiTabla = Manejador.getEjecutaStoredProcedure1("setActualizarPrivacidad", Session["idcodigo"].ToString() + "|" + Session["idusuario"].ToString());
                 if (MiTabla != null)
                 {
                     //DataTable dtusuario = clFunciones.convertToDatatable(MiTabla);

@@ -39,8 +39,8 @@ namespace kioskotem
                         if (dtusuario.Rows[0]["privacidad"].ToString() == "0")
                             {
                                 Session["objusuario"] = dtusuario;
-                                Session["idusuario"] = dtusuario.Rows[0]["iIdUsuarioK"].ToString();
-                                Session["idcodigo"] = dtusuario.Rows[0]["codigo"].ToString();
+                                Session["idusuario"] = dtusuario.Rows[0]["iUsuario"].ToString();
+                                Session["idcodigo"] = dtusuario.Rows[0]["fkiIdEmpresa"].ToString();
                                 Response.Redirect("privacidad.aspx");
                             }
                             else
@@ -48,26 +48,26 @@ namespace kioskotem
                                 if (dtusuario.Rows[0]["etica"].ToString() == "0")
                                 {
                                     Session["objusuario"] = dtusuario;
-                                    Session["idusuario"] = dtusuario.Rows[0]["iIdUsuarioK"].ToString();
-                                    Session["idcodigo"] = dtusuario.Rows[0]["codigo"].ToString();
+                                    Session["idusuario"] = dtusuario.Rows[0]["iUsuario"].ToString();
+                                    Session["idcodigo"] = dtusuario.Rows[0]["fkiIdEmpresa"].ToString();
                                     Response.Redirect("etica.aspx");
                                 }
                                     //ValidateMail
                                 else
                                 {
-                                    if (dtusuario.Rows[0]["verificaremail"].ToString() == "0")
+                                    if (dtusuario.Rows[0]["iverificaremail"].ToString() == "0")
                                     {
                                         Session["objusuario"] = dtusuario;
-                                        Session["idusuario"] = dtusuario.Rows[0]["iIdUsuarioK"].ToString();
-                                        Session["idcodigo"] = dtusuario.Rows[0]["codigo"].ToString();
+                                        Session["idusuario"] = dtusuario.Rows[0]["iUsuario"].ToString();
+                                        Session["idcodigo"] = dtusuario.Rows[0]["fkiIdEmpresa"].ToString();
                                         Response.Redirect("ValidarEmail.aspx");
                                     }
                                     else
                                     {
                       
                                         Session["objusuario"] = dtusuario;
-                                        Session["idusuario"] = dtusuario.Rows[0]["iIdUsuarioK"].ToString();
-                                        Session["idcodigo"] = dtusuario.Rows[0]["codigo"].ToString();
+                                        Session["idusuario"] = dtusuario.Rows[0]["iUsuario"].ToString();
+                                        Session["idcodigo"] = dtusuario.Rows[0]["fkiIdEmpresa"].ToString();
                                         Session["inicio"] = "1";
                                         Response.Redirect("inicio/inicio.aspx");
 

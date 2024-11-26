@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>SOVER</title>
+  <title>MBC GROUP</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
@@ -35,13 +35,12 @@
 </head>
 <body class="hold-transition login-page"  >
 <div class="login-box">
-  <div class="login-logo">
-    
-      <img alt="" class="style1" src="imagenes/logooperadora.png" />
+   <div class="login-logo">
+  
+     <%-- <img alt="" class="style1" src="imagenes/logooperadora.png" />--%>
+    <a href="#"><b>MBC</b>GROUP</a>
   </div>
-  <%--<div class="login-logo">
-    <a href="#"><b>Operadora</b>Mx</a>
-  </div>--%>
+  
   <!-- /.login-logo -->
   <div class="login-box-body" >
     <p class="login-box-msg">
@@ -57,7 +56,7 @@
         
               <div class="form-group has-feedback">
         
-                    <asp:TextBox ID="txtcodigo" runat="server" type="text" class="form-control" placeholder="Id Empleado"></asp:TextBox>
+                    <asp:TextBox ID="txtcodigo" runat="server" type="text" class="form-control" placeholder="Id Empresa"></asp:TextBox>
                     <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
               </div>
               <div class="form-group has-feedback">

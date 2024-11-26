@@ -76,24 +76,6 @@ namespace kioskotem {
         protected global::System.Web.UI.WebControls.Label lblnombre2;
         
         /// <summary>
-        /// Control lijuridico.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl lijuridico;
-        
-        /// <summary>
-        /// Control lijuridico2.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl lijuridico2;
-        
-        /// <summary>
         /// Control ContentPlaceHolder1.
         /// </summary>
         /// <remarks>

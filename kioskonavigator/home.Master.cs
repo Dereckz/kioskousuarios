@@ -44,11 +44,11 @@ namespace kioskotem
         {
             //Se compara si laempresa que accee es TMM
 
-            if (Session["perfil"].ToString() == "2")
-            {
-                this.lijuridico.Visible = true;
-                this.lijuridico2.Visible = true;
-            }
+            //if (Session["iEstatus"].ToString() == "2")
+            //{
+            //    this.lijuridico.Visible = true;
+            //    this.lijuridico2.Visible = true;
+            //}
             base.OnLoad(e);
         }
 

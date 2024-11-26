@@ -28,7 +28,7 @@ namespace kioskotem
                 DateTime thisDay = DateTime.Today;
 
                 // Difference in days, hours, and minutes.
-                String tmp = usuario.Rows[0]["fechapass"].ToString();
+                String tmp = usuario.Rows[0]["dtfechapass"].ToString();
                 if (!tmp.Equals(""))
                 {
                     DateTime passDate = Convert.ToDateTime(tmp.Remove(18));

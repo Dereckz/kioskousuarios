@@ -33,8 +33,8 @@ namespace kioskotem
             {
                     string claveacceso = Generador.ClaveAccesoUsuario(15);
                     IsvcOperadoraMxClient Manejador = new IsvcOperadoraMxClient();
-           
-                    Tabla UpdateTable = Manejador.getEjecutaStoredProcedure1("UP_S_ActualizarClaveAcceso", Session["idusuario"].ToString() + "|" + Session["idcodigo"].ToString() + "|" + claveacceso);
+
+                    Tabla UpdateTable = Manejador.getEjecutaStoredProcedure1("UP_S_ActualizarClaveAcceso", Session["idcodigo"].ToString() + "|" + Session["idusuario"].ToString());
 
                     if (UpdateTable != null)
                     {
